@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars,faSignOut } from "@fortawesome/free-solid-svg-icons"; // Import the eye icon
+import { faBars, faSignOut } from "@fortawesome/free-solid-svg-icons"; // Import the eye icon
+import "./index.css";
 
 export default function Sidebar() {
   return (

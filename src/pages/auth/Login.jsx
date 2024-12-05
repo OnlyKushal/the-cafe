@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons"; // Import the eye icon
+import "./index.css";
 
 export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
@@ -44,8 +45,8 @@ export default function Login() {
 
         <div className="end-section mb-5">
           <div className="remember-me">
-            <input type="Checkbox" id="remember-me" className="checkbox"/>
-            <label for="remember-me">Remember me</label>
+            <input type="Checkbox" id="remember-me" className="checkbox" />
+            <label htmlFor="remember-me">Remember me</label>
           </div>
           <div className="forget-password">
             <a href="">Forget Password?</a>

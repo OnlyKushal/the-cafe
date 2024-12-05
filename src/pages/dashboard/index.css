@@ -1,0 +1,187 @@
+/* Revenue start */
+
+.revenue {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: relative;
+}
+
+.revenue .items {
+  background-color: var(--secondary-color);
+  width: 369px;
+  height: 166px;
+  border-radius: 10px;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  padding: 24px 24px 0px 24px;
+}
+.items .item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top label {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.top .icon {
+  background-color: var(--primary-color);
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items .total {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.items .footer {
+  height: 20px;
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+
+.items .footer label {
+  color: var(--text-light-dark-color);
+  bottom: 2px;
+  margin-top: 30px;
+}
+
+.items .footer img {
+  height: 100%;
+  width: 154px;
+}
+
+/* Revenue end */
+
+/* Popular Dishes Start */
+.mid-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin-top: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mid-div{
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+.mid-div .dish {
+  height: 466px;
+  width: 575px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  padding: 38px;
+  border-radius: 10px;
+  
+}
+
+.dish::-webkit-scrollbar {
+  width: 14px;
+}
+
+.dish::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color); 
+  border-radius: 38px; 
+  margin: 2px; 
+}
+
+.dish::-webkit-scrollbar-track {
+  background-color: var(--border-color);
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+.dish .heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading label {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.heading a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dish .dish-items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  margin-top: 30px;
+}
+
+.dish-items .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--border-color);
+  border-radius: 5px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.item .details {
+  flex: 1;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dish-image {
+  object-fit: cover;
+  height: 67px;
+  width: 89px;
+  border-radius: 5px;
+}
+
+.dish-name {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.item .price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.price p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.price label {
+  bottom: 2px;
+  right: 2px;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Popular Dished End */
